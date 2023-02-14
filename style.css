@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;;
+}
+body{
+  background-color: lightgrey;
+}
+.container{
+  min-width: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header , .footer{
+  background-color: black;
+  min-height: 100px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 30px;
+  align-items: center;
+  gap: 30px ;
+}
+.Link{
+  display: flex;
+  
+  gap: 20px;
+}
+.link {
+  justify-content: space-around;
+  gap: 15px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 20px;
+  padding: 15px;
+  transition: 0.3s;
+  
+}
+.link:visited{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 20px;
+}
+.link:hover{
+  color: rgb(209, 0, 0);
+  transition: 0.5s;
+  border: 2px solid rgb(71, 71, 71);
+}
+.link:hover{
+  border-radius: 10px;
+}
+.link:active{
+  color: white;
+}
+.logo{
+  width: 300px;
+}
+.apresentacao{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+.voltartopo{
+  color: white;
+  font-size: 30px;
+  text-decoration: none;
+  transition: 0.3;
+}
+.voltartopo:hover{
+  text-decoration: underline gray;
+  transition: 0.5s;
+}
+.esportes{
+  padding-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(3 , 1fr);
+  place-items: center ;
+}
+.esporteFoto{
+  width: 250px;
+  height: 200px;
+  border-radius: 10px;
+}
+.boxe , .crossfit , .natacao , .roupas , .basquete , .corrida , .surf , .trilha , .tenis{
+  width: 295px;
+  height: auto;
+  padding: 20px;
+}
+.boxe:hover , .crossfit:hover , .natacao:hover , .roupas:hover , .basquete:hover , .corrida:hover , .surf:hover , .trilha:hover , .tenis:hover{
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 10px;
+  transition: 0.3s;
+  }
+  .esportecontainer{
+    display: flex;
+    gap: 30px;
+  }
+.esportes2{
+  background-color: rgb(53, 53, 53);
+  border-radius: 10px;
+  height: 145vh;
+  width: 350px;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.EsporteTexto2{
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 5px;
+  font-size: 18px;
+}
+.esporteFoto2{
+  height: 130px;
+  padding: 10px;
+}
+.TituloTexto2{
+  padding-bottom: 20px;
+  font-size: 30px;
+  color: rgb(255, 250, 250);
+}
+.bicicleta:hover , .neve:hover , .skate:hover , .americano:hover , .yoga:hover{
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 5px;
+  transition: 0.3s;
+}
+.bicicleta , .neve , .skate , .americano , .yoga{
+  padding: 5px;
+}
